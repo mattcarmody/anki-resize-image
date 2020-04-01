@@ -1,10 +1,10 @@
 # Resize image in editor
 ## Rationale
 Some people want to resize images without going through an external
-editor. This add-on adds this exact feature.
+editor. This add-on adds that exact feature.
 
 ### Size limit
-It seems a lot of users want to still be able to use [maximum image height in card editor](https://ankiweb.net/shared/info/229181581).
+It seems a lot of users want to still be able to use the [maximum image height in card editor](https://ankiweb.net/shared/info/229181581) add-on.
 These add-ons cannot be used simultaneously, so I had to implement its feature in my add-on. 
 
 ## History
@@ -53,7 +53,7 @@ This way, big images do not take up a lot of space.
 If you do so, you'll need to click on images before being able to resize them.
 You'll then need to click again if you want the maximums to be applied.
 
-Note that the ratio won't be preserved, unless you had set "preserve ratio while resizing" to "original".
+Note that the ratio won't be preserved, unless you had set `preserve ratio while resizing` to `original`.
 
 ### Minimum height and width
 By default, an image will never be less than 10 px in height and width.
@@ -66,8 +66,8 @@ This add-on replaces the method `Editor.setupWeb`. The new method calls the prev
 
 ## TODO
 ### Resizing in reviewer
-If I reach 400 € (100 more than the initial goal) on the [kickstarter](https://www.kickstarter.com/projects/arthurmilchior/image-resizing-in-anki/description),
-I'll make a pull request to the author of [Edit Field During Review (Cloze)](https://ankiweb.net/shared/info/385888438) so that they can incorporate my feature in their add-on.
+~~If I reach 400 € (100 more than the initial goal) on the [kickstarter](https://www.kickstarter.com/projects/arthurmilchior/image-resizing-in-anki/description),
+I'll make a pull request to the author of [Edit Field During Review (Cloze)](https://ankiweb.net/shared/info/385888438) so that they can incorporate my feature in their add-on.~~ Done!
 
 ### Max height/width
 Currently, when max-height/width is applied to an image which has been resized, the new size is not proportional to the old one.
