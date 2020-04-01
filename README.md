@@ -28,7 +28,9 @@ That does the job, but it's not as intuitive as a click and drag.
 That's a really cool idea, but not what people were looking for.
 
 ## Incompatible add-ons
-Currently, this add-on is not compatible with "multi-column note editor".
+* [multi-column note editor](https://ankiweb.net/shared/info/3491767031)
+* [maximum image height in card editor](https://ankiweb.net/shared/info/229181581) - its functionality has been incorporated into this add-on so there is no need to use both
+
 No other incompatiblities are currently known.
 
 ## Warning
@@ -39,10 +41,10 @@ For example if for some reason you added classes, max-height, max-width... to so
 ## Configuration
 ### Ratio
 By default, resizing preserves the height:width ratio. I assume that's the usual way to resize an image and that is what the user wants.
-If you want to be able to resize without preserving ratio, you need to switch ``preserve ratio while resizing`` to ``false``.
-You can always resize and preserve the ratio by pressing ``Shift`` while resizing. 
+If you want to be able to resize without preserving ratio, you need to switch `preserve ratio while resizing` to `false`.
+You can always resize and preserve the ratio by pressing `Shift` while resizing. 
 
-You can also set this value to ``original``. In this case, the image will always have the original ratio.
+You can also set this value to `original`. In this case, the image will always have the original ratio.
 The main advantage is that this ratio will be preserved even if you add a maximum height or width.
 
 ### Maximum height or width
