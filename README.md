@@ -65,7 +65,7 @@ This add-on replaces the method `Editor.setupWeb`. The new method calls the prev
 ## TODO
 ### Resizing in reviewer
 If I reach 400 € (100 more than the initial goal) on the [kickstarter](https://www.kickstarter.com/projects/arthurmilchior/image-resizing-in-anki/description),
-I'll make a pull request to the author of (Edit Field During Review (Cloze))[https://ankiweb.net/shared/info/385888438] so that they can incorporate my feature in their add-on.
+I'll make a pull request to the author of [Edit Field During Review (Cloze)](https://ankiweb.net/shared/info/385888438) so that they can incorporate my feature in their add-on.
 
 ### Max height/width
 Currently, when max-height/width is applied to an image which has been resized, the new size is not proportional to the old one.
@@ -73,18 +73,18 @@ I don't see any easy way to correct it. Maybe try to figure it out one day.
 
 ### Frozen fields
 While this add-on is mostly compatible with frozen fields, once you freeze/unfreeze a field, images are not resizable anymore.
-I submitted a correction to Frozen Field add-on. You can beta test it (https://github.com/glutanimate/frozen-fields/releases/tag/v2.1.0)[here].
-Please tell us (here)[https://github.com/glutanimate/frozen-fields/pull/15#event-3054473127] whether it worked correctly or not, in which case the add-on will be updated on ankiweb.
+I submitted a correction to Frozen Field add-on. You can beta test it [here](https://github.com/glutanimate/frozen-fields/releases/tag/v2.1.0).
+Please tell us [here](https://github.com/glutanimate/frozen-fields/pull/15#event-3054473127) whether it worked correctly or not, in which case the add-on will be updated on ankiweb.
 
 ### Hook
 Once 2.1.21 is publicly available (not in beta) I should use new's hook to add the javascript to the editor with the hook instead of changing the method setupWeb.
 
 ### Contribution
-This add-on has been crowdfunded on (Kickstarter)[https://www.kickstarter.com/projects/arthurmilchior/image-resizing-in-anki]. Thanks to:
+This add-on has been crowdfunded on [Kickstarter](https://www.kickstarter.com/projects/arthurmilchior/image-resizing-in-anki). Thanks to:
 * The AnKing
 * Pravin Manju Vence
 * Joseph
-* and other (contributors)[contributors.md] 
+* and other [contributors](contributors.md) 
 
 ## Links, licence and credits
 
